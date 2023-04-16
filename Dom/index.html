@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css">
+    <script src="./ex-3.js" defer ></script>
+    <title>document</title>
+</head>
+
+<body style="height: 1000px;">
+    <input id="img-input" 
+        value="https://img.haarets.co.il/bs/00000181-da1a-d19b-a3bb-de9e0bf60000/f1/0c/5799a9a44d39a9389276ed017ee8/52627.jpg?precrop=1911,1911,x0,y219" />
+    <input class="inp" />
+    <button id="show-btn" class="button1">show</button>
+    <h1 class="x">0</h1>
+    <h1 class="y">0</h1>
+    <button>remove</button>
+
+    <img id="rabbi-img" src="" style="height: 200px" style="width: 300px" />
+    <!-- <button class="green">green</button>
+    <button class="red">red</button>
+    <button class="blue">blue</button>
+    <button class="black">black</button> -->
+    <script src="dom.js" defer>
+        /*1*/
+        /*  const inp = document.querySelector('.inp')
+            const btn = document.querySelector('.button1')
+            btn.addEventListener("click", function(){
+                alert(inp.value)
+            })*/
+
+        /*2*/
+        //  const x =document.querySelector(".x")
+        //      const y =document.querySelector(".y")
+        //      document.body.addEventListener("mousemove",function(event){
+        //      x.innerText=event.screenX
+        //      y.innerText=event.screenY
+        //      })
+
+        /*3*/
+        
+        
+
+        /*4*/
+        /*  let ul = document.createElement("ul")
+            for (i=0; i<10; i++){
+            let li = document.createElement("li")
+            li.innerText=i
+            ul.appendChild(li)
+            console.log(li)
+            }
+            document.body.append(ul)
+            console.log(ul)
+            const buttonShow = document.querySelector("button")
+            buttonShow.addEventListener("click",function(){
+            ul.removeChild(ul.lastChild)
+            console.log(ul)
+            })*/
+
+        const buttongreen = document.createElement("button")
+        buttenGreen.innertext = "green"
+        const buttonBlue = document.createElement("button")
+        buttenBlue.innertext = "blue"
+        const buttonblack = document.createElement("button")
+        buttenblack.innertext = "black"
+        document.body.append(buttenBlue, buttenGreen, buttenRed, buttenblack)
+        console.log(buttenBlue, buttenGreen, buttenRed, buttenblack)
+
+// buttons.addEventListener("click",function(event){
+//     if (11<event.screenX<62){
+//         body = document.querySelector("body")
+//         console.log(body)
+        // body.style.background-color="green"
+//     }
+
+// })
+    </script>
+
+
+</body>
+
+</html>

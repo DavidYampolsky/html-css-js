@@ -1,0 +1,141 @@
+ .container{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    justify-content: space-between;
+}
+.section-1{
+    display:flex;
+    flex-flow: row wrap;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    height: 450px;
+    width: 100%;
+}
+.section-1>*{
+    text-align:center;
+}
+.section-2{
+    background-color: #fff;
+    color:#333;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    
+}
+.section-21{
+    display: inline-block;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 400px;
+    height: 100px;
+    gap: 30px;
+}
+.section-3{
+    padding: 15px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 388.8px;
+    width: 100%;
+    gap: 25px
+}
+.box{
+    align-items: stretch;
+    margin:0%;
+    padding: 50px;
+    flex-direction: column;
+    text-align:center;
+    justify-content: space-between;
+    align-content: space-between;
+    background: #fff;
+    height: 300px;
+    width: 250px;
+    padding: 1em;
+    gap: 30px;
+    row-gap: 10px;
+}
+.section-4{
+    background: #fff;
+    margin: 0;
+    height: 250px;
+    width: 100%;
+    text-align:center;
+    align-content: space-between;
+} 
+.section-5{
+    margin: 0;
+    height: 250.4px;
+    width: 100%;
+    display: flex;
+}
+.section-5>*{
+    text-align: center;
+    align-items:flex-start;
+ /*   padding: 50px;*/
+}
+.section-51{
+    background: #2690d4;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    justify-content:flex-start
+}
+.section-52{
+    background: #333;
+    display:flex;
+    justify-content: flex-start;
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    flex-direction:column;
+    align-items:center
+}
+.section-6{
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    display: flex;
+    color: #fff;
+    padding: 30px;
+    justify-items: center;
+    height: 40px;
+    width: 100%;
+}
+.section-61{
+    height:100%;
+    width:50%;
+    justify-content: center;
+    justify-items: center;
+    text-align:center
+
+}
+p{
+    display:inline
+}
+button{
+    display:block;
+    box-sizing: content-box;
+    border-color: #fff;
+    background-color: #333;
+    color: #fff;
+    padding: 1em 2em;
+    cursor:pointer;
+    font-size: 1.1em;
+    margin: 30px;
+}
