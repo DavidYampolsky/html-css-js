@@ -1,12 +1,12 @@
 
 
-const insertBtn= document.querySelector("#insert-btn");
-const input=document.querySelector('#task')
+const insertBtn = document.querySelector("#insert-btn");
+const input = document.querySelector('#task')
 
-const list =[]
+const list = []
 
 const renderList = () => {
-    
+
 }
 
 insertBtn.addEventListener('click', (e) => {
@@ -15,3 +15,7 @@ insertBtn.addEventListener('click', (e) => {
         value: input.value
     })
 })
+
+const superAlgo = () => {
+    return superAlgo()
+}
